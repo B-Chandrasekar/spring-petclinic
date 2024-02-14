@@ -13,5 +13,11 @@ pipeline {
       }
     }
 
+    stage('UnitTest') {
+      steps {
+        echo 'UnitTest in progress'
+      }
+    }
+
   }
 }
